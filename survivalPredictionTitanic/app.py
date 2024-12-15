@@ -66,7 +66,7 @@ elif app_mode =="About Project" :
     """)
      
 elif app_mode=="Prediction":
-      model = joblib.load(r"D:\target\ml\survivalPredictionTitanic\Titanic.joblib")
+      model = joblib.load("survivalPredictionTitanic/Titanic.joblib")
       st.header("Survival Prediction")
 
       st.write("Please fill in the details below:")

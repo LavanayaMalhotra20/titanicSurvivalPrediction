@@ -7,7 +7,7 @@ app_mode=st.sidebar.selectbox("Select Page",["Home","About Project","Prediction"
 
 if app_mode=="Home":
     st.header("Titanic Survival Prediction")
-    image_path = r"C:\Users\Asus\Downloads\beautiful-shot-olympia-shipwreck-amorgos-island-greece_181624-18615.jpg"
+    image_path = "survivalPredictionTitanic/beautiful-shot-olympia-shipwreck-amorgos-island-greece_181624-18615.jpg"
     st.image(image_path, use_column_width=True)
     
     st.markdown("""
